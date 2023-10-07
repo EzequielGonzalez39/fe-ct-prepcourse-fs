@@ -7,6 +7,7 @@ function continueStatement(num) {
     // Tu código:
     final = [];
     for (i = 1; i < 11; i++){
+     num += 2;
      if (i === 5){
         continue
      } else {
